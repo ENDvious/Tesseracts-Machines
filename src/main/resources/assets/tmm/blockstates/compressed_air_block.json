@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "tmm:compressed_air_block" }
+        ]
+    }
+}

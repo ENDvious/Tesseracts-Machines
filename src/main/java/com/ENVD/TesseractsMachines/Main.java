@@ -1,5 +1,7 @@
 package com.ENVD.TesseractsMachines;
 
+import com.ENVD.TesseractsMachines.init.ModBlocks;
+import com.ENVD.TesseractsMachines.init.ModItems;
 import com.ENVD.TesseractsMachines.proxy.CommonProxy;
 import com.ENVD.TesseractsMachines.util.Reference;
 
@@ -25,6 +27,9 @@ public class Main {
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event)
 	{
+		
+		ModItems.init();
+		ModBlocks.init();
 		
 	}
 	
